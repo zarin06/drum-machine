@@ -1,0 +1,64 @@
+* {
+  color: rgb(63, 62, 62);
+  font-size: 20px;
+  font-family: 'Fruktur', cursive;
+  /* font-family: 'Oswald', sans-serif; */
+  font-weight: 700;
+}
+
+.bg {
+ background: linear-gradient(to bottom right, rgba(67, 0, 112, 0.5), rgba(18, 1, 29, 0.9)) ,url('./img/gabriel-barletta--lWcaUVJ39Y-unsplash.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 100vh;
+}
+
+#drum-machine {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255,255,255,0.5);
+  display: block;
+  height: 60vh;
+  width: 60vw;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  box-shadow: 0 .3rem .6rem rgba(0,0,0,0.5);
+}
+
+button {
+  width: 5rem;
+  height: 3rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0.1rem 0.2rem #000;
+}
+
+button:active {
+  background-color: orangered !important;
+  border: none !important;
+}
+
+.buttonRow:first-child {
+  margin-top: 4rem;
+}
+
+#text {
+  margin-top: 4rem;
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 0.5rem 0.25rem;
+  border-radius: 0.5rem;
+}
+ p {
+   margin-top: 1rem;
+   font-size: 1.8rem;
+   line-height: 1;
+   font-family: 'Fruktur', cursive;
+ }
+
+ em {
+   font-size: 2.1rem;
+   font-family: 'Fruktur', cursive;
+ }
